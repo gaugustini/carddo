@@ -1,0 +1,2 @@
+rootProject.name = "Carddo"
+include ':app'
