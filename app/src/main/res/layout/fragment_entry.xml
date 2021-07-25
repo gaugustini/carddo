@@ -14,7 +14,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="16dp">
+        android:layout_margin="@dimen/margin_normal">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -22,10 +22,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/name_label"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                style="@style/Widget.Carddo.TextInputLayout.OutlinedBox"
                 android:hint="@string/name"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -42,10 +39,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/job_label"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                style="@style/Widget.Carddo.TextInputLayout.OutlinedBox"
                 android:hint="@string/job"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -62,10 +56,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/phone_label"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                style="@style/Widget.Carddo.TextInputLayout.OutlinedBox"
                 android:hint="@string/phone"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -82,10 +73,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/mail_label"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                style="@style/Widget.Carddo.TextInputLayout.OutlinedBox"
                 android:hint="@string/mail"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -102,10 +90,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/company_label"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                style="@style/Widget.Carddo.TextInputLayout.OutlinedBox"
                 android:hint="@string/company"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -122,10 +107,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/site_label"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                style="@style/Widget.Carddo.TextInputLayout.OutlinedBox"
                 android:hint="@string/site"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -142,10 +124,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/color_label"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                style="@style/Widget.Carddo.TextInputLayout.OutlinedBox"
                 android:hint="@string/color"
                 app:boxBackgroundColor="@{contact.color}"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +144,7 @@
                 android:id="@+id/btn_save"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="@dimen/margin_large"
                 android:text="@string/save"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
