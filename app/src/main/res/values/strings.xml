@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Carddo</string>
+
+    <string name="title_fragment_new">New Contact</string>
+    <string name="title_fragment_edit">Edit Contact</string>
+    <string name="title_fragment_detail">Contact Details</string>
+
+    <string name="new_contact">New Contact</string>
+    <string name="edit_contact">Edit Contact</string>
+
+    <string name="add">Add Card</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="pick_color">Pick a color</string>
+
+    <string name="empty">It looks like you don\'t have\nany contacts yet, try creating a new one</string>
+
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <string name="name">Name</string>
+    <string name="job">Job</string>
+    <string name="phone">Phone</string>
+    <string name="mail">Mail</string>
+    <string name="company">Company</string>
+    <string name="site">Site</string>
+    <string name="color">Color</string>
+
 </resources>
