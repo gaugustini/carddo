@@ -17,13 +17,11 @@
 
         <TextView
             android:id="@+id/empty_label"
+            style="@style/Widget.Carddo.TextView.Large"
             isGone="@{hasContacts}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:gravity="center"
             android:text="@string/empty"
-            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -44,10 +42,7 @@
 
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
+            style="@style/Widget.Carddo.ExtendedFloatingActionButton"
             android:contentDescription="@string/new_contact"
             android:text="@string/add"
             app:icon="@drawable/ic_add"
